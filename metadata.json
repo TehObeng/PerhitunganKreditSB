@@ -1,0 +1,6 @@
+{
+  "name": "Kalkulator Penawaran Kredit Agen",
+  "description": "Kalkulator untuk mensimulasikan penawaran kredit lengkap, termasuk berbagai jenis fasilitas seperti KPR, KPM, dan opsi bayar bunga saja untuk KFS dan KBS.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
