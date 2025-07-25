@@ -60,17 +60,12 @@ const App = () => {
     }
 
     // Provisi
-    const provisi = principal > 100000000 ? principal * 0.01 : principal * 0.015;
+    let provisi;
+        provisi = principal * 0.01;
 
     // Administrasi
     let administrasi;
-    if (principal <= 100000000) {
-        administrasi = 1000000;
-    } else if (principal > 100000000 && principal <= 200000000) {
-        administrasi = 2000000;
-    } else { // > 200,000,000
-        administrasi = principal * 0.015;
-    }
+        administrasi = principal * 0.0025;
 
     // Pengikatan
     let pengikatanValue;
