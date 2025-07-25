@@ -47,7 +47,7 @@ const PDFPreviewContent = React.forwardRef<HTMLDivElement, PDFPreviewContentProp
       <div ref={ref} className="pdf-preview-content" style={style}>
         <header className="pdf-header">
            <img 
-            src="https://bprsb-online.com/wp-content/uploads/2023/06/BPR-SB-horizontal-warna-1024x280.png" 
+            src="/logoBPRSB.png" 
             alt="BPR Sejahtera Batam Logo" 
             className="preview-logo" 
           />
