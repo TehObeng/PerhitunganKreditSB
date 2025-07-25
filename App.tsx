@@ -146,7 +146,7 @@ const App = () => {
   return (
     <div className="calculator-container">
       <header className="app-header">
-        <img src="/logoBPRSB.png" alt="BPR Sejahtera Batam Logo" className="logo" />
+        <img src="https://bprsb-online.com/wp-content/uploads/2023/06/BPR-SB-horizontal-warna-1024x280.png" alt="BPR Sejahtera Batam Logo" className="logo" />
         <h1 className="title">Kalkulator Simulasi KPR</h1>
       </header>
 
