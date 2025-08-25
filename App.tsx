@@ -1,5 +1,6 @@
 
 
+
 import React, { useState, useEffect } from 'react';
 import type { LoanInputs, CostInputs } from './loanTypes';
 import { useLoanCalculator } from './useLoanCalculator';
@@ -78,7 +79,7 @@ const App = () => {
     }
     
     // SKMHT
-    const biayaSKMHT = 1400000;
+    const biayaSKMHT = 1050000;
 
     // --- Combined Survey & Taksasi ---
     let survey;
@@ -97,9 +98,9 @@ const App = () => {
     // --- Combined Legalitas (APHT, Cek Sertifikat, PNBP) ---
     let apht;
     if (principal > 1000000000) {
-        apht = 0.0030 * 1.25 * principal;
+        apht = 0.0025 * 1.25 * principal;
     } else { // <= 1,000,000,000
-        apht = 0.0035 * 1.25 * principal;
+        apht = 0.0025 * 1.25 * principal;
     }
     
     const cekSertifikat = 250000;
