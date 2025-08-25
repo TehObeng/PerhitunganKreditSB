@@ -38,9 +38,9 @@ const App = () => {
     const term = parseInt(loanInputs.loanTerm, 10) || 0;
     let newInterestRate = ''; // Default to empty
     if (term >= 1 && term <= 10) {
-      newInterestRate = '6.88';
+      newInterestRate = '6.98';
     } else if (term > 10 && term <= 15) {
-      newInterestRate = '7';
+      newInterestRate = '7.5';
     }
     
     if (newInterestRate !== loanInputs.interestRate) {
